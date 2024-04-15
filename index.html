@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body onload="ChangeBlocks(0)">
+  <script src="js.js"></script>
+ 
+   <main>
+   
+       <div id="raportto"> 
+        <img src="images/fatmanface_1.jpg" style="border-radius: 100%; border: solid 1px white; width: 50px;height: 50px ; margin-top: 30 px
+         ; margin-left: 10px;">
+      <h2>Report to</h2>  
+      <h1>Krzysztof</h1>
+      <h1>Null</h1>
+            <div class="blu" style="margin-top: 150px;">
+              <a href="#" onclick="ChangeBlocks(0)">Daily</a> 
+              <a href="#" onclick="ChangeBlocks(1)">Weekly</a> 
+              <a href="#" onclick="ChangeBlocks(2)">Monthly</a> 
+            </div>
+      </div>
+
+     <div id="bloki">
+               <div class="blok">
+                        <div style="background-color:  hsl(43, 84%, 65%); width: 200px; margin-bottom: 0%;">
+                        <img src="images/icon-work.svg">
+                        </div>
+                        <div style=" background-color: hsl(235, 46%, 20%); margin-top: 0%;">
+                         <h4>work</h4>
+                        </div>
+               </div>
+     </div>
+   
+   </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Patryk Sojka</a>.
+  </div>
+</body>
+</html>
